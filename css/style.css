@@ -110,7 +110,6 @@ section .blackboard .info p{
 }
 section .blackboard .info p i,section .blackboard .countPrompt i{
     position: absolute;
-    top: -0.1rem;
     right: 20rem;
     display: inline-block;
     width: 1.8rem;
