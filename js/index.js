@@ -84,6 +84,8 @@ $(function () {
     }
     //成功弹窗查看转赠记录
     $('.success').find('span').on('touchend',function () {
+        $('.success').fadeOut();
+        hideMask();
         window.location.href = 'queryList.html';
     });
     //失败弹窗确定按钮
