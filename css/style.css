@@ -76,7 +76,7 @@ section .blackboard .count i{
     background-size: cover;
 }
 section .blackboard .info div em{
-    display: inline-block;
+    display: block;
 }
 section .blackboard .phoneNumber div em{
     width: 19.6rem;
