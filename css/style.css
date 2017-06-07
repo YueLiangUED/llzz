@@ -1,0 +1,307 @@
+header{
+    width: 37.5rem;
+    height: 1rem;
+    background-color: #f6f6f6;
+}
+section .blackboard{
+    position: relative;
+    box-sizing: border-box;
+    width: 37.5rem;
+    height: 27.65rem;
+    background: url("../images/blackboard.png") center no-repeat;
+    background-size: cover;
+}
+section .blackboard .topBtnBox{
+    position: absolute;
+    top: 2.45rem;
+    right: 1.5rem;
+    box-sizing: border-box;
+    width: 16.05rem;
+    height: 4.65rem;
+    line-height: 5.65rem;
+    text-align: center;
+    background: url("../images/topBtnBox.png") center no-repeat;
+    background-size: cover;
+}
+section .blackboard .topBtnBox .topBtn{
+    display: inline-block;
+    width: 12.85rem;
+    height: 1.5rem;
+    background: url("../images/topBtn.png") center no-repeat;
+    background-size: cover;
+}
+section .blackboard .info{
+    position: absolute;
+}
+section .blackboard .info span{
+    display: inline-block;
+}
+section .blackboard .phoneNumber span{
+    width: 11.6rem;
+    height: 1.95rem;
+    background: url("../images/phoneNumber.png") center no-repeat;
+    background-size: cover;
+}
+section .blackboard .count span{
+    width: 7.25rem;
+    height: 1.65rem;
+    background: url("../images/count.png") center no-repeat;
+    background-size: cover;
+}
+section .blackboard .phoneNumber{
+    top: 9.2rem;
+    left: 2.15rem;
+}
+section .blackboard .count{
+    top: 15.3rem;
+    left: 6.3rem;
+}
+section .blackboard .info div{
+    float: right;
+    margin-left: 1.8rem;
+    width: 19.6rem;
+}
+section .blackboard .count div{
+    position: relative;
+    width: 19.2rem;
+}
+section .blackboard .count i{
+    position: absolute;
+    top: 0.1rem;
+    right: -0.5rem;
+    display: inline-block;
+    width: 2.9rem;
+    height: 1.7rem;
+    background: url("../images/MB.png") center no-repeat;
+    background-size: cover;
+}
+section .blackboard .info div em{
+    display: inline-block;
+}
+section .blackboard .phoneNumber div em{
+    width: 19.6rem;
+    height: 0.3rem;
+    background: url("../images/phoneNumberBottomLine.png") center no-repeat;
+    background-size: cover;
+}
+section .blackboard .count div em{
+    width: 16.3rem;
+    height: 0.25rem;
+    background: url("../images/countBottomLine.png") center no-repeat;
+    background-size: cover;
+}
+section .blackboard .info input{
+    font-size: 1.6rem;
+    background: none;
+    border: none;
+    color: #ffffff;
+}
+section .blackboard .count div input{
+    width: 16.3rem;
+}
+section .blackboard .info p{
+    display: none;
+    position: relative;
+    margin-top: 1rem;
+    font-size: 1.5rem;
+    text-align: right;
+    vertical-align: middle;
+    color: #dfdc03;
+}
+section .blackboard .info p i,section .blackboard .countPrompt i{
+    position: absolute;
+    top: -0.1rem;
+    right: 20rem;
+    display: inline-block;
+    width: 1.8rem;
+    height: 1.8rem;
+    background: url("../images/prompt.png") center no-repeat;
+    background-size: cover;
+}
+section .blackboard .countPrompt{
+    display: none;
+    position: absolute;
+    right: 2.5rem;
+    bottom: 7.5rem;
+    font-size: 1.5rem;
+    text-align: right;
+    vertical-align: middle;
+    color: #dfdc03;
+}
+section .blackboard .countPrompt i{
+    right: 32rem;
+}
+section .blackboard .submit{
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 3rem;
+    margin: auto;
+    width: 16.5rem;
+    height: 3.3rem;
+    background: url("../images/submit_03.png") center no-repeat;
+    background-size: cover;
+}
+section .tabTitle{
+    box-sizing: border-box;
+    padding: 1.3rem 1.5rem 1rem;
+    width: 37.5rem;
+    background-color: #f7f7f7;
+}
+section .tabTitle ul li{
+    float: left;
+    width: 10.05rem;
+    height: 3.8rem;
+    font-size: 2.1rem;
+    text-align: center;
+    line-height: 3.8rem;
+    color: #543c23;
+    background: url("../images/tabBg.png") center no-repeat;
+    background-size: cover;
+}
+section .tabTitle ul li:nth-child(2){
+    margin: 0 2.1rem;
+}
+section .tabTitle ul .active{
+    color: #ffffff;
+    background: url("../images/tabBgAct.png") center no-repeat;
+    background-size: cover;
+}
+
+section .tabMessage{
+    box-sizing: border-box;
+    padding-bottom: 1rem;
+    width: 37.5rem;
+    background-color: #f7f7f7;
+}
+section .tabMessage ul li{
+    display: none;
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 3.1rem 3.1rem 2.55rem 3.55rem;
+    width: 33.15rem;
+    height: 20.6rem;
+    background: url("../images/textBg.png") center no-repeat;
+    background-size: cover;
+}
+section .tabMessage ul li:last-child p,section .tabMessage ul li:nth-child(2) p{
+    text-indent: 0;
+}
+section .tabMessage ul .act{
+    display: block;
+}
+section .tabMessage ul li p{
+    font-size: 1.1rem;
+    text-indent: -1rem;
+    line-height: 1.4rem;
+    color: #333333;
+}
+footer{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding-top: 1.4rem;
+    width: 37.5rem;
+    height: 6rem;
+    background-color: #276c4b;
+}
+footer div:first-child{
+    margin: 0 auto;
+    width: 24rem;
+}
+footer div:first-child ul li{
+    float: left;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0 1.15rem;
+    height: 1.3rem;
+    border-right: 0.1rem solid #ffffff;
+    font-size: 1.1rem;
+    text-align: center;
+    line-height: 1.3rem;
+}
+footer div:first-child ul li:last-child{
+    border-right: none;
+}
+footer div:first-child ul li a{
+    color: #ffffff;
+}
+footer div:last-child{
+    margin: 0 auto;
+    width: 17rem;
+}
+footer div:last-child ul li{
+    float: left;
+    padding: 0 2rem;
+    font-size: 1.1rem;
+    line-height: 3rem;
+    color: #55ba8a;
+}
+/*遮罩层*/
+.mask {
+    position: absolute;
+    top: 0px;
+    filter: alpha(opacity=50);
+    background-color: #000;
+    z-index: 100;
+    left: 0px;
+    opacity: 0.5;
+    -moz-opacity: 0.5;
+}
+/*弹窗样式*/
+.tc{
+    position: fixed;
+    top: 8rem;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 25rem;
+    height: 32.2rem;
+    text-align: center;
+    color: #333333;
+    background: url("../images/tcWrap.png") center no-repeat;
+    background-size: cover;
+    z-index: 1000;
+}
+.tc div{
+    margin: 4rem auto 2.5rem;
+    width: 10.2rem;
+    height: 10.85rem;
+    background: url("../images/successStamp.png") center no-repeat;
+    background-size: cover;
+}
+.tc.lose div{
+    width: 10.75rem;
+    height: 10.7rem;
+    background: url("../images/loseStamp.png") center no-repeat;
+    background-size: cover;
+}
+.tc p{
+    font-size: 1.8rem;
+}
+.tc b{
+    font-size: 2.1rem;
+    line-height: 3rem;
+}
+.tc span{
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 4.8rem;
+    display: block;
+    margin: auto;
+    width: 12.65rem;
+    height: 2.9rem;
+    font-size: 1.7rem;
+    line-height: 2.9rem;
+    border: 0.15rem solid #a58b5e;
+    border-radius: 2rem;
+}
+.tc{
+    display: none;
+}
+.lose p{
+    font-size: 1.4rem;
+    line-height: 2rem;
+}

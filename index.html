@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>流量转赠</title>
+    <link rel="stylesheet" href="css/reset.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header></header>
+<section>
+    <div class="blackboard">
+        <div class="topBtnBox">
+            <span class="topBtn"></span>
+        </div>
+        <div class="phoneNumber info clear">
+            <span></span>
+            <div>
+                <input id="phoneInput" type="text" placeholder="请输入被赠人的手机号">
+                <em></em>
+            </div>
+            <p class="phoneNumberPrompt">
+                <i></i>
+                请正确输入11位北京移动号码
+            </p>
+        </div>
+        <div class="count info clear">
+            <span></span>
+            <div>
+                <input id="countInput" type="text" placeholder="大于等于100的整数">
+                <em></em>
+                <i></i>
+            </div>
+        </div>
+        <p class="countPrompt">
+            <i></i>
+            请正确输入要转赠的流量数,大于等于100的整数
+        </p>
+        <div class="submit"></div>
+    </div>
+</section>
+<section id="firstTab">
+    <div class="tabTitle">
+        <ul class="clear">
+            <li class="active">产品说明</li>
+            <li>资费标准</li>
+            <li>办理方法</li>
+        </ul>
+    </div>
+    <div class="tabMessage">
+        <ul>
+            <li class="act">
+                <p>1.流量转赠者发起者必须是4G套餐用户，即订购了和4G套
+                    餐、4G组合套餐、4G飞享套餐升级版、30元及以上档
+                    位流量可选包用户，在号码状态正常的情况下，可以发
+                    起流量转赠。</p>
+                <p>2.为了保证用户的正常使用，每月16日0点以后可以为其
+                    它北京移动用户进行转赠。</p>
+                <p>3.目前仅限4G套餐内的流量可以赠送。转赠流量（必须
+                    为整数）从10M起，且当前剩余流量比赠送流量多50M。</p>
+                <p>4.每月最多转赠4人。</p>
+                <p>5.转赠成功后，受赠用户优先使用转赠流量。</p>
+            </li>
+            <li>
+                <p>促销期内免费使用。</p>
+            </li>
+            <li>
+                <p>在门户网站和微厅进行办理，符合转赠条件的用户输入正确的手机号和转赠流量，即可完成转赠。</p>
+            </li>
+        </ul>
+    </div>
+</section>
+<footer>
+    <div>
+        <ul class="clear">
+            <li>
+                <a href="">登录</a>
+            </li>
+            <li>
+                <a href="">下载APP</a>
+            </li>
+            <li>
+                <a href="">电脑版</a>
+            </li>
+            <li>
+                <a href="">在线客服</a>
+            </li>
+        </ul>
+    </div>
+    <div>
+        <ul class="clear">
+            <li>北京移动</li>
+            <li>版权所有</li>
+        </ul>
+    </div>
+</footer>
+<!--遮罩层-->
+<div class="mask" id="mask"></div>
+<!--成功弹窗-->
+<div class="tc success">
+    <div></div>
+    <p>恭喜您!</p>
+    <b>提交成功</b>
+    <span>查看转赠记录</span>
+</div>
+<!--失败弹窗-手机号输入错误-->
+<div class="tc lose phoneWron">
+    <div></div>
+    <p>您的小伙伴号码状态异常<br>无法转赠</p>
+    <span>确定</span>
+</div>
+<!--失败弹窗-流量不足-->
+<div class="tc lose countWron">
+    <div></div>
+    <p>您将转赠的流量<br>小于100的整数或流量余额不足<br>请重新输入</p>
+    <span>确定</span>
+</div>
+<!--失败弹窗-A方没有订购同学圈-->
+<div class="tc lose AWron">
+    <div></div>
+    <p>您还没有开通同学圈<br>赶快去开通吧</p>
+    <span>确定</span>
+</div>
+<!--失败弹窗-B方没有订购同学圈-->
+<div class="tc lose BWron">
+    <div></div>
+    <p>您的小伙伴没有订购同学圈<br>请输入已订购此业务的手机号码</p>
+    <span>确定</span>
+</div>
+<!--失败弹窗-非北京移动用户-->
+<div class="tc lose notBjMobile">
+    <div></div>
+    <p>您的小伙伴不是北京移动用户<br>无法转赠<br>换个北京移动的小伙伴试试吧</p>
+    <span>确定</span>
+</div>
+<!--失败弹窗-已达到转赠次数上限-->
+<div class="tc lose countExcess">
+    <div></div>
+    <p>您本月的转赠次数已达4次<br>下个月继续做雷锋</p>
+    <span>确定</span>
+</div>
+<!--失败弹窗-已达到转赠流量上限-->
+<div class="tc lose flowExcess">
+    <div></div>
+    <p>您本月转赠的流量已达5GB<br>下个月再继续高富帅</p>
+    <span>确定</span>
+</div>
+</body>
+</html>
+<script src="js/jquery-1.10.1.min.js"></script>
+<script src="js/index.js"></script>

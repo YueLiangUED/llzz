@@ -1,0 +1,126 @@
+header{
+    width: 37.5rem;
+    height: 1rem;
+}
+section .tabBox{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 37.5rem;
+}
+section .tabBox>ul{
+    padding: 0 5.15rem 1rem;
+}
+section .tabBox>ul li{
+    float: left;
+    width: 10.05rem;
+    height: 3.8rem;
+    font-size: 2.1rem;
+    text-align: center;
+    line-height: 3.8rem;
+    color: #543c23;
+    background: url("../images/tabBg.png") center no-repeat;
+    background-size: cover;
+}
+section .tabBox>ul li:first-child{
+    margin-right: 7.1rem;
+}
+section .tabBox>ul .active{
+    color: #ffffff;
+    background: url("../images/tabBgAct.png") center no-repeat;
+    background-size: cover;
+}
+section .list{
+    display: none;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 6.6rem 2.8rem 3.2rem;
+    width: 33.15rem;
+    height: 49.45rem;
+}
+section .list.act{
+    display: block;
+}
+section .list ul{
+    width: 27.7rem;
+    height: 39.8rem;
+    overflow: auto;
+
+}
+section .list ul li{
+    border-bottom: 0.1rem dashed #c5beb5;
+}
+section .list ul li span{
+    display: inline-block;
+    font-size: 1.2rem;
+    line-height: 4rem;
+    color: #333333;
+}
+section .list ul li span:first-child{
+    width: 7rem;
+}
+section .list ul li span:nth-child(2){
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 6.5rem;
+    margin-left: 4rem;
+    text-align: center;
+}
+section .list ul li span:last-child{
+    float: right;
+    letter-spacing: 0.1rem;
+}
+section .give{
+    background: url("../images/giveNumberBg.png") center no-repeat;
+    background-size: 100% 100%;
+}
+section .get{
+    background: url("../images/getNumberBg.png") center no-repeat;
+    background-size: 100% 100%;
+}
+footer{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin-top: 1rem;
+    padding-top: 1.4rem;
+    width: 37.5rem;
+    height: 6rem;
+    background-color: #276c4b;
+}
+footer div:first-child{
+    margin: 0 auto;
+    width: 24rem;
+}
+footer div:first-child ul li{
+    float: left;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0 1.15rem;
+    height: 1.3rem;
+    border-right: 0.1rem solid #ffffff;
+    font-size: 1.1rem;
+    text-align: center;
+    line-height: 1.3rem;
+}
+footer div:first-child ul li:last-child{
+    border-right: none;
+}
+footer div:first-child ul li a{
+    color: #ffffff;
+}
+footer div:last-child{
+    margin: 0 auto;
+    width: 17rem;
+}
+footer div:last-child ul li{
+    float: left;
+    padding: 0 2rem;
+    font-size: 1.1rem;
+    line-height: 3rem;
+    color: #55ba8a;
+}
